@@ -8,7 +8,7 @@ public class chrono2 {
 	}
 	public int getMinutes() {
 		return (nbSecondes%3600)/60;
-	}//ceci est un testhfhfhf
+	}
 	public int getSecondes() {
 		return (nbSecondes%3600)%60;
 	}
