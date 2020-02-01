@@ -1,6 +1,6 @@
 
 public class chrono2 {
-
+	// Guigui test
 	private int nbSecondes = 0;
 	
 	public int getHeures() {
