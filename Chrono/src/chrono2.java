@@ -28,7 +28,12 @@ public class chrono2 {
 		}
 	}
 	
-	
+	public void rebours() {
+		if (nbSecondes > 0){
+			nbSecondes -- ;
+		}
+		return ();
+	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

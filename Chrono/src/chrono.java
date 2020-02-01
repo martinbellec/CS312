@@ -30,6 +30,26 @@ public class chrono {
 			secondes = s;
 		}
 	}
+	public void rebours() {
+		if (secondes > 0){
+			secondes -- ;
+		}
+		else {
+			if(minutes > 0){
+				secondes = 59;
+				minutes --;
+			}
+			else{
+				if(heures>0){
+					secondes = 59;
+					minutes = 59;
+					heures --;
+				}
+			}
+			
+		}
+		return ();
+	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
