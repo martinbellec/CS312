@@ -10,7 +10,7 @@ public class chrono {
 	}
 	public int getMinutes() {
 		return minutes;
-	} //Ceci est test
+	}
 	public int getSecondes() {
 		return secondes;
 	}
