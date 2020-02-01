@@ -28,9 +28,15 @@ public class chrono2 {
 		}
 	}
 	
+
 	public void print() {
 		System.out.println(getHeures() + " heures " + getMinutes() + " minutes " + getSecondes() + " secondes ");
 	}
-	
-	
+		
+	public void rebours() {
+		if (nbSecondes > 0){
+			nbSecondes-- ;
+		}
+	}
+		
 }

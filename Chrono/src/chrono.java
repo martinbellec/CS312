@@ -31,6 +31,27 @@ public class chrono {
 		}
 	}
 	
+	
+	public void rebours() {
+		if (secondes > 0){
+			secondes -- ;
+		}
+		else {
+			if(minutes > 0){
+				secondes = 59;
+				minutes --;
+			}
+			else{
+				if(heures>0){
+					secondes = 59;
+					minutes = 59;
+					heures --;
+				}
+			}
+			
+		}
+	}
+	
 	public void print() {
 		System.out.println(getHeures() + " heures " + getMinutes() + " minutes " + getSecondes() + " secondes ");
 	}
